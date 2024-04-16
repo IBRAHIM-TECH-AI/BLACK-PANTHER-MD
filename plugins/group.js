@@ -122,7 +122,7 @@ smd({
       const groupInviteLink = `${baseUrl}${groupInviteCode}`;
       const contextInfo = {
         externalAdReply: {
-          title: "*ASTA*-𝗠𝗗",
+          title: "*PANTHER*-𝗠𝗗",
         },
       };
  
