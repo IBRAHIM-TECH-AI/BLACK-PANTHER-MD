@@ -65,7 +65,7 @@ smd(
       let _0x47c982 =
         _0x44d3dd[0]?.trim() !== "" ? _0x44d3dd[0] : _0x471740.pushName;
       let _0x20f704 =
-        _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "ᴀsᴛᴀ-ᴍᴅ ♥️";
+        _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "panther-ᴍᴅ ";
       let _0x3ab776 = await _0xad98fb.download();
       let _0x3d0871 = {
         pack: _0x47c982,
@@ -408,13 +408,13 @@ smd(
     pattern: "fancy",
     desc: "Makes stylish/fancy given text",
     category: "converter",
-    use: "56 Suhail",
+    use: "56 PANTHER",
     filename: __filename,
   },
   async (_0x230c03, _0x3b568a) => {
     try {
       let _0x365550 =
-        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬SUHAIL-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
+        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬PANTHER-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
         (_0x3b568a
           ? "```🔢Reply the number you wants to select``` \n\n"
           : "```\t\t" +
@@ -460,7 +460,7 @@ smd(
     try {
       let _0x48c907 = _0x53c116.trim();
       let _0x5cfa86 =
-        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬SUHAIL-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
+        "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬PANTHER-MD_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " +
         (_0x48c907
           ? "```🔢Reply the number you wants to select``` \n\n"
           : "```\t\t" +
@@ -542,7 +542,7 @@ smd(
       let _0xd51ec = _0x4cb7aa ? _0x4cb7aa : _0x4cfc4e.reply_text;
       if (!_0xd51ec) {
         return _0x4cfc4e.reply(
-          "*_Example : " + prefix + "fliptext Suhail MD!_*"
+          "*_Example : " + prefix + "fliptext PANTHER MD!_*"
         );
       }
       let _0x5c7a34 = _0xd51ec.split("").reverse().join("");
