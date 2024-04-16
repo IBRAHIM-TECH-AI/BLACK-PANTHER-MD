@@ -173,7 +173,7 @@ smd(
           _0x511884.toString().padStart(2, "0");
         var _0x56eaaf = {
           externalAdReply: {
-            title: "*ASTA*-𝗠𝗗",
+            title: "*PANTHER*-𝗠𝗗",
             body: _0x5f4890.subject,
             renderLargerThumbnail: true,
             thumbnail: log0,
@@ -4827,7 +4827,7 @@ smd(
       );
       setTimeout(() => {
         const _0x9e99d4 =
-          "*Hurray! Group Opened*\n *Now Members Can Send Messages*";
+          "*Ibrahim! Group Opened*\n *Now Members Can Send Messages*";
         _0x4f388a.bot.groupSettingUpdate(_0x4f388a.from, "not_announcement");
         _0x4f388a.reply(_0x9e99d4);
       }, _0x3fc29d);
