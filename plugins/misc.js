@@ -13,7 +13,7 @@ smd(
   },
   async (_0x17bb63) => {
     try {
-      let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
+      let _0x12a593 = "*PANTHER ROAMING!*";
       await _0x17bb63.reply(
         _0x12a593,
         {
@@ -424,7 +424,7 @@ smd(
         return await _0x4cdec8.reply(
           "*Need URL! Use " +
             prefix +
-            "ss https://github.com/Astropeda/Asta-Md*"
+            "ss https://github.com/ibrahimaitech/IBRAHIM-MD*"
         );
       }
       let _0x358290 = await ssweb(_0x587b99);
@@ -460,18 +460,18 @@ smd(
   async (_0x45da98) => {
     try {
       let { data: _0x44f98c } = await axios.get(
-        "https://api.github.com/repos/Astropeda/Asta-Md"
+        "https://api.github.com/repos/ibrahimaitech/IBRAHIM-MD"
       );
       let _0x1c73f9 = (
-        "\nSimple WhatsApp Bot, Created By *" +
+        "\Am black panther wabot,Created by *" +
         Config.ownername +
-        "*. \n\n  *❲❒❳ Stars:* " +
+        "*. \n\n  *❲❂❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "120+") +
-        " stars\n  *❲❒❳ Forks:* " +
+        " stars\n  *❲❂❳ Forks:* " +
         (_0x44f98c?.forks_count || "1000+") +
-        " forks\n  *❲❒❳ Creator:* Astropeda\n  *❲❒❳ Created:* " +
+        " forks\n  *❲❂❳ Creator:* Astropeda\n  *❲❂❳ Created:* " +
         (_0x44f98c?.created_at || "undefined") +
-        "\n  *❲❒❳ Repo:* _https://github.com/Astropeda/Asta-Md_\n  *❲❒❳ Scan:* _" +
+        "\n  *❲❂❳ Repo:* _https://github.com/ibrahimaitechh/IBRAHIM-MD_\n  *❲❂❳ Scan:* _" +
         scan +
         "_\n\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
@@ -500,17 +500,17 @@ smd(
       let _0x53eb40 = (
         " *I am " +
         Config.botname +
-        "* \n  *❲❒❳ About:* A Simple WhatsApp Bot, Created By " +
+        "* \n  *❲❂❳ About:* Am Black Panther Wabot, Created By " +
         Config.ownername +
-        ".\n\n  *❲❒❳ Speed:* " +
+        ".\n\n  *❲❂❳ Speed:* " +
         latensie.toFixed(4) +
-        " ms\n  *❲❒❳ Uptime:* " +
+        " ms\n  *❲❂❳ Uptime:* " +
         runtime(process.uptime()) +
-        "\n  *❲❒❳ Version:* " +
+        "\n  *❲❂❳ Version:* " +
         Config.VERSION +
-        "\n  *❲❒❳ Owner:*  " +
+        "\n  *❲❂❳ Owner:*  " +
         Config.ownername +
-        "\n\n  *❲❒❳ Channel:* _" +
+        "\n\n  *❲❂❳ Channel:* _" +
         gurl +
         "_ \n" +
         (Config.caption ? "\n\n" + Config.caption : "")
@@ -610,7 +610,7 @@ smd(
                   "%"
               )
               .join("\n      ") +
-            "\n\n  *❲❒❳ CPU Core Usage (" +
+            "\n\n  *❲❂❳ CPU Core Usage (" +
             _0x14b376.length +
             " Core CPU)*\n  " +
             _0x14b376
