@@ -324,7 +324,7 @@ cmd(
       if (_0x4ac8f2.length) {
         let _0x3d85b = await download(_0x4ac8f2[0].id);
         let _0x307e6f =
-          "*ᴀsᴛᴀ ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " +
+          "*panther ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " +
           _0x1cb962 +
           "_ \n";
         for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
@@ -615,7 +615,7 @@ smd(
           _0x4e4465.title ||
           _0x3e3caf ||
           _0x421809[1] ||
-          "Suhail MD -- YT Video";
+          "Panther MD -- YT Video";
         if (_0x3e3caf) {
           await _0xe5ea97.bot.sendMessage(_0xe5ea97.chat, {
             [_0x5b10f0]: {
@@ -1033,7 +1033,7 @@ smd(
       let _0x3b2ca6 = await yts(_0x4ec99f);
       let _0x4123ae = _0x3b2ca6.all[0];
       let _0x5883a9 =
-        "\t *ᴀsᴛᴀ ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " +
+        "\t *Panther ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " +
         _0x4123ae.title +
         "\nUrl : " +
         _0x4123ae.url +
@@ -1084,7 +1084,7 @@ cmd(
       }
       let _0x2878ec = await yts(_0xca939c);
       let _0x4186e4 =
-        "*ᴀsᴛᴀ ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " +
+        "*Panther ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " +
         _0xca939c +
         "_ \n\n";
       let _0x463366 = 1;
