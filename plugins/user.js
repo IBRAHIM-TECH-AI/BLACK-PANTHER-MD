@@ -312,7 +312,7 @@ cmd(
           (await _0x5b9714.bot
             .profilePictureUrl(_0x5b9714.chat, "image")
             .catch(
-              (_0x1c3876) => "https://telegra.ph/file/29a8c892a1d18fdb26028.jpg"
+              (_0x1c3876) => "https://telegra.ph/file/522d399d03e2b682a6938.mp4"
             )) || THUMB_IMAGE;
         const _0x3bf573 = _0x5b9714.metadata;
         const _0x3526c9 = _0x5b9714.admins
@@ -366,7 +366,7 @@ cmd(
         try {
           _0x5ae446 = await _0x5b9714.bot.profilePictureUrl(_0x354e18, "image");
         } catch (_0x17156a) {
-          _0x5ae446 = "https://telegra.ph/file/29a8c892a1d18fdb26028.jpg";
+          _0x5ae446 = "https://telegra.ph/file/522d399d03e2b682a6938.mp4";
         }
         var _0xf3d6e0 = await _0x5b9714.bot.getName(_0x354e18);
         return await _0x5b9714.bot.sendMessage(
@@ -375,7 +375,7 @@ cmd(
             image: {
               url: _0x5ae446,
             },
-            caption: "`ASTA MD WHATSAPP BOT`",
+            caption: "`𝘽𝙇𝘼𝘾𝙆𝙋𝘼𝙉𝙏𝙃𝙀𝙍 MD WHATSAPP BOT`",
           },
           {
             quoted: _0x5b9714,
