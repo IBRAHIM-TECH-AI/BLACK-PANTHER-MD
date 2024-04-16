@@ -1,13 +1,13 @@
 {
-  "name": "asta-md",
+  "name": "Black-panther-mdv45.0",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://i.imgur.com/ZkBjWK2.jpg",
-  "keywords": "Asta-Md",
+  "logo": "https://telegra.ph/file/b3a65285f9ed66762be0e.jpg",
+  "keywords": "Panther-Md",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Astro",
+      "value": "𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑻𝒆𝒄𝒉",
       "required" :true
     },   
     "HEROKU_API_KEY": {
@@ -23,7 +23,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "𝘼𝙎𝙏𝘼 𝙈𝘿"
+      "value": "𝘽𝙇𝘼𝘾𝙆 𝙋𝘼𝙉𝙏𝙃𝙀𝙍 𝙈𝘿"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -31,7 +31,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "254710772666"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -45,17 +45,17 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://i.imgur.com/DoPFyzc.jpg,https://i.imgur.com/YgdZA3l.jpg,https://i.imgur.com/K4IEW12.jpg,https://i.imgur.com/q5MAdYt.jpg,https://i.imgur.com/z20pSwu.jpg,https://i.imgur.com/Xp1b2vG.jpg,https://i.imgur.com/OQOH4Gn.jpeg,https://i.imgur.com/lIo3cM2.jpeg"
+      "value": "https://telegra.ph/file/b3a65285f9ed66762be0e.jpg,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/522d399d03e2b682a6938.mp4"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Lagos"
+      "value": "Africa/Kenya"
     },  
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required" :false,    
-      "value": "false"
+      "value": "True"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -109,7 +109,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝘼𝙎𝙏𝘼 𝙈𝘿",
+      "value": "𝘽𝙇𝘼𝘾𝙆 𝙋𝘼𝙉𝙏𝙃𝙀𝙍",
       "required": false 
     },
     "PACK_AUTHER": {
