@@ -1,0 +1,7 @@
+# ASTA MD WHATSAPP BOT 2024
+build:
+  docker:
+      worker: Dockerfile
+#ASTA
+#ASTROPEDA
+#2024
