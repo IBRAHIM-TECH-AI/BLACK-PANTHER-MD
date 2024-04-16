@@ -221,6 +221,7 @@ astro_patch.smd(
       let menuThemeCommandFooter;
 
       if (Config.menu === "") {
+      if (Config.menu === "") {
         menuThemeType = Math.floor(Math.random() * 4) + 1;
       }
 
@@ -229,33 +230,33 @@ astro_patch.smd(
         Config.menu.trim().startsWith("1") ||
         Config.menu.toLowerCase().includes("menu1")
       ) {
-        menuThemeHeader = "┏﹝ *" + Config.botname + "* ﹞";
-        menuThemeCommandPrefix = "┃ ✗";
-        menuThemeFooter = "┗═════════════〤";
+        menuThemeHeader = "┍〔 *" + Config.botname + "* ﹞";
+        menuThemeCommandPrefix = "╏ ❁";
+        menuThemeFooter = "╏_____________ ׂׂૢ་༘࿐";
         menuThemeCategoryHeader = "┌『";
         menuThemeCategoryFooter = "』";
         menuThemeCommandPrefix = " | ";
-        menuThemeCommandFooter = "\n└═════════════〤";
+        menuThemeCommandFooter = "\n╏_____________ ׂׂૢ་༘࿐";
       } else if (
         menuThemeType === 2 ||
         Config.menu.trim().startsWith("2") ||
         Config.menu.toLowerCase().includes("menu2")
       ) {
-        menuThemeHeader = "┌═[ *" + Config.botname + "* ]";
+        menuThemeHeader = "『〔 *" + Config.botname + "* 〕";
         menuThemeCommandPrefix = "¤│▸";
-        menuThemeFooter = "╰════════════···▸";
-        menuThemeCategoryHeader = "┌〈";
-        menuThemeCategoryFooter = "〉";
-        menuThemeCommandPrefix = "¤│▸ ";
-        menuThemeCommandFooter = "\n│╰══════════···▸▸";
+        menuThemeFooter = "╰✯ ━━━━ ✫ ━━━━ ✯";
+        menuThemeCategoryHeader = "┍〔";
+        menuThemeCategoryFooter = "〕";
+        menuThemeCommandPrefix = "⌠✺⌡ ";
+        menuThemeCommandFooter = "\n│╰✯ ━━━━ ✫ ━━━━ ✯";
       } else {
-        menuThemeHeader = "╭〘  " + Config.botname + "  〙";
-        menuThemeCommandPrefix = "│ │";
-        menuThemeFooter = "╰═══════════════⊷";
-        menuThemeCategoryHeader = "╭─❏";
-        menuThemeCategoryFooter = "❏";
-        menuThemeCommandPrefix = "│";
-        menuThemeCommandFooter = "╰════════════─⊷";
+        menuThemeHeader = "▓〘  " + Config.botname + "  〙▓";
+        menuThemeCommandPrefix = "┇ ┇";
+        menuThemeFooter = "╰✯━━━━━━✿✫✿━━━━━━✯";
+        menuThemeCategoryHeader = "╭─❍";
+        menuThemeCategoryFooter = "❍";
+        menuThemeCommandPrefix = "╏";
+        menuThemeCommandFooter = "╰✯ ━━━━ ✫ ━━━━ ✯";
       }
 
       const categorizedCommands = {};
@@ -286,8 +287,8 @@ astro_patch.smd(
     ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
     ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
     ${menuThemeFooter}\n                         
-    *ᴍᴇɴᴜ ʙᴀsᴇᴅ: ᴘᴀᴛᴄʜ 𝟷.𝟶.𝟻*
-    \t*A͏S͏T͏A͏ M͏D͏ 2͏0͏2͏4͏*
+    *𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑽45.9*
+    \t*𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑻𝑬𝑪𝑯 𝑭𝑺𝑻8*
     \n${readmore}\n`;
 
       for (const category in categorizedCommands) {
@@ -338,7 +339,7 @@ smd(
         _0x22514a.date +
         "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- Astropeda Team\n➮Oᴡɴᴇʀ - " +
+        "\n\n➮Fᴏᴜɴᴅᴇʀ- Ibrahim Adams\n➮Oᴡɴᴇʀ - " +
         Config.ownername +
         "\n➮Nᴜᴍ - " +
         owner.split(",")[0] +
@@ -346,9 +347,9 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :*  ᴀsᴛᴀ ᴍᴅ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *🧑‍💻 :*  panther ᴍᴅ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭─〔 *ALL MENU* 〕\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀ\n╰─────────────❂"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
@@ -502,7 +503,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*𝓛𝓪𝓽𝓮𝓷𝓬𝔂*\n *${pingTime} 𝖒𝖘*`,
+      `*ℑ𝔟𝔯𝔞𝔥𝔦𝔪*\n *${pingTime} 𝖒𝖘*`,
       { edit: messageKey },
       "",
       context
@@ -517,7 +518,7 @@ astro_patch.smd(
     filename: __filename,
   },
   async (message) => {
-    await message.send(`*ASTA MD STILL ALIVE*`);
+    await message.send(`*PANTHER MD STILL ALIVE*`);
   }
 );
 astro_patch.cmd(
@@ -553,23 +554,23 @@ astro_patch.cmd(
     try {
       const { commands: _0x7cfe13 } = require("../lib");
       let _0x95885d =
-        "\n  ╭━━〘 *" +
+        "\n  ╭━〔 *" +
         Config.botname +
-        "* 〙────⊷     \n  ┃ ✭ Theme: " +
+        "* 〕────❂     \n  ⌠✺⌡ Theme: " +
         tlang().title +
-        "\n  ┃ ✭ Prefix: " +
+        "\n  ⌠✺⌡ Prefix: " +
         prefix +
-        "\n  ┃ ✭ Owner: " +
+        "\n  ⌠✺⌡ Owner: " +
         Config.ownername +
-        "\n  ┃ ✭ Commands: " +
+        "\n  ⌠✺⌡ Commands: " +
         _0x7cfe13.length +
-        "\n  ┃ ✭ Uptime: " +
+        "\n  ⌠✺⌡ Uptime: " +
         runtime(process.uptime()) +
-        "\n  ┃ ✭ Mem: " +
+        "\n  ⌠✺⌡ Mem: " +
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n  ╰━━━━━━━━━━━━━━⊷\n";
+        "\n  ╰━━━━━━━━━━━━━━❂\n";
       for (let _0x2bd72c = 0; _0x2bd72c < _0x7cfe13.length; _0x2bd72c++) {
         if (_0x7cfe13[_0x2bd72c].pattern == undefined) {
           continue;
@@ -875,7 +876,7 @@ function _0x593b() {
     "schedule",
     "_COMMANDS*  \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n\n",
     "text",
-    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*ASTA-MD_",
+    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*PANTHER-MD_",
     "2716190HSgAcg",
     "info",
     "endsWith",
