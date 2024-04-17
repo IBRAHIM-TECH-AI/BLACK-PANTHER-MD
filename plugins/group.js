@@ -1808,7 +1808,7 @@ cmd(
         forwardingScore: 999,
         isForwarded: true,
         externalAdReply: {
-          title: "Suhail-Md Broadcast",
+          title: "Panther-Md Broadcast",
           body: _0x553d05.senderName,
           renderLargerThumbnail: true,
           thumbnail: log0,
