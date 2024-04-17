@@ -1,15 +1,26 @@
 {
-   "name": "suhail-md",
-   "version": "1.3.1",
-   "description": "Multi device whatsapp bot by SuhailTechInfo.",
+   "name": "asta-md",
+   "version": "1.0.0",
+   "description": "Simple WhatsApp Bot.",
    "main": "index.js",
    "type": "commonjs",  
-   "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
-            "start": "pm2 start . --attach --name Suhail",
-            "stop": "pm2 stop Suhail"
+   "engines": {
+  "node": "20.x",
+  "npm": "10.5.2"
    },
-   "author": "SuhailTechInfo",
+   "scripts": {
+            "run": "pm2 start . --deep-monitoring --attach --name Asta || node .",
+            "start": "pm2 start . --attach --name Asta",
+            "stop": "pm2 stop Asta",
+            "heroku-postbuild": "npx puppeteer@latest install --y"
+         
+   },
+   "devDependencies": {
+      "pino": "^7.0.5",
+      "typescript": "^4.9.4",
+    "@types/node": "^18.11.18"
+   },
+   "author": "Astropeda",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
@@ -66,13 +77,14 @@
       "plugins" :"plugins"
 
    },
-   "devDependencies": {
-      "pino": "^7.0.5"
-   },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
+      "url": "git+https://github.com/Astropeda/Asta-Md.git"
    },
-   "bugs": { "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues" },
-   "homepage": "https://github.com/SuhailTechInfo/Suhail-Md#readme"
+   "bugs": { "url": "https://github.com/Astropeda/Asta-Md/issues" },
+   "homepage": "https://github.com/Astropeda/Asta-Md#readme"
 }
+
+
+
+
