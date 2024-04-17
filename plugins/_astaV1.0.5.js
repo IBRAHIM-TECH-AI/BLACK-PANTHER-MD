@@ -154,7 +154,7 @@ smd(
           }
         }
 
-        return await message.send("`ASTA MD UPDATE WAS SUCCESSFULL ✅`");
+        return await message.send("`PANTHER MD UPDATE WAS SUCCESSFULL ✅`");
       } else {
         return await message.send(
           "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
